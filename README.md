@@ -117,17 +117,19 @@ main()             → Runs system
 
 ## Step-Wise Algorithm
 
--Start
--Load dataset
--Clean text
--Combine title + content
--Apply TF-IDF
--Split dataset
--Train models
--Evaluate models
--Select best model
--Take user input
--Predict result
+- Start
+- Load dataset
+- Clean text
+- Combine title + content
+- Apply TF-IDF
+- Split dataset
+- Train models
+- Evaluate models
+- Select best model
+- Take user input
+- Predict result
+- Save model
+- End
 -Save model
 -End
 
