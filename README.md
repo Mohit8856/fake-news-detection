@@ -116,6 +116,7 @@ main()             → Runs system
 ---
 
 ## Step-Wise Algorithm
+
 -Start
 -Load dataset
 -Clean text
