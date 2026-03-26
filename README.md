@@ -133,44 +133,15 @@ main()             → Runs system
 -Save model
 -End
 
-⚙️ Setup & Installation Guide
-Step 1 — Install Python
-Install Python 3.x
-Check installation:
-python --version
-If not installed:
-https://www.python.org/
-Step 2 — Clone the Repository
-git clone <your-repo-link>
-cd project
-Step 3 — Create Virtual Environment
-python -m venv venv
-Activate environment:
-Windows
-venv\Scripts\activate
-Mac/Linux
-source venv/bin/activate
-Step 4 — Install Dependencies
-pip install pandas numpy matplotlib scikit-learn
-Optional:
-pip freeze > requirements.txt
-Step 5 — Project Configuration
-Place dataset file:
-news.csv inside src/ folder
-Required columns:
-title
-text
-Step 6 — Run the Program
-python main.py
-Step 7 — Using the Program
-View dataset information
-Observe graphs
-Check model accuracy
-Enter custom news
-Output:
-FAKE ❌
-REAL ✅
-Step 8 — Exit Program
-exit
+Flowchart
+flowchart TD
+A[Start] --> B[Load Dataset]
+B --> C[Clean Text]
+C --> D[Vectorization]
+D --> E[Train Models]
+E --> F[Evaluate]
+F --> G[User Input]
+G --> H[Prediction]
+H --> I[End]
 
 
