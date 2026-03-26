@@ -104,7 +104,7 @@ This system solves the problem using machine learning.
 
 ## Top-Down Design (Modules)
 
-```text
+---
 load_data()        → Reads dataset  
 clean_text()       → Cleans text  
 vectorize_text()   → TF-IDF conversion  
@@ -116,16 +116,18 @@ main()             → Runs system
 ---
 
 ## Step-Wise Algorithm
-Start
-Load dataset
-Clean text
-Combine title + content
-Apply TF-IDF
-Split dataset
-Train models
-Evaluate models
-Select best model
-Take user input
-Predict result
-Save model
-End
+-Start
+-Load dataset
+-Clean text
+-Combine title + content
+-Apply TF-IDF
+-Split dataset
+-Train models
+-Evaluate models
+-Select best model
+-Take user input
+-Predict result
+-Save model
+-End
+
+
