@@ -111,4 +111,21 @@ vectorize_text()   → TF-IDF conversion
 train_models()     → Train ML models  
 evaluate_models()  → Compare models  
 predict_news()     → Predict output  
-main()             → Runs system  
+main()             → Runs system
+
+---
+
+## Step-Wise Algorithm
+Start
+Load dataset
+Clean text
+Combine title + content
+Apply TF-IDF
+Split dataset
+Train models
+Evaluate models
+Select best model
+Take user input
+Predict result
+Save model
+End
