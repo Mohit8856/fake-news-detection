@@ -115,7 +115,7 @@ main()             → Runs system
 
 ---
 
-## Step-Wise Algorithm
+## Step-Wise Algorithm 
 
 - Start
 - Load dataset
@@ -133,15 +133,6 @@ main()             → Runs system
 -Save model
 -End
 
-Flowchart
-flowchart TD
-A[Start] --> B[Load Dataset]
-B --> C[Clean Text]
-C --> D[Vectorization]
-D --> E[Train Models]
-E --> F[Evaluate]
-F --> G[User Input]
-G --> H[Prediction]
-H --> I[End]
+##  Flowchart 
 
 
