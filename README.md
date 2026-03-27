@@ -273,7 +273,7 @@ title,text
 ### ▶️ 6. Run the Project
 
 ```bash
-python your_script_name.py
+python main.py
 ```
 
 ---
