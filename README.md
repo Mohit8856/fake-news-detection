@@ -347,6 +347,39 @@ Enter news: Government launches new scheme
 Result: REAL ✅
 ```
 
+
+### 🧪 Test News Inputs
+
+#### 🔹 General News
+```text
+Government launches new education policy for students across the country
+Breaking: Scientists discover a new planet similar to Earth in distant galaxy
+Stock markets hit record high as economy shows strong growth signals
+New study reveals benefits of daily exercise for mental health
+Heavy rainfall causes flooding in several parts of the city
+```
+
+---
+
+#### ❌ Fake-like / Sensational News (for testing model behavior)
+```text
+Shocking! Aliens have landed on Earth and taken control of major cities
+Miracle cure for all diseases discovered, doctors hate this secret
+Breaking: Drinking only water for 7 days can make you immortal
+Secret government project reveals humans can time travel
+Celebrity confirms the world will end next week
+```
+
+---
+
+#### 🧠 Mixed / Realistic News (Best for Testing)
+```text
+India announces new digital policy to improve online security
+Researchers develop AI system to detect fake news more accurately
+Government increases budget allocation for healthcare sector
+Tech companies invest heavily in artificial intelligence development
+```
+
 Type `exit` to stop execution.
 
 
