@@ -298,3 +298,28 @@ Then run:
 ```bash
 pip install -r requirements.txt
 ```
+
+### 💾 8. Output Files
+
+After running the project, the following files will be generated:
+
+- `model.pkl` → Trained Machine Learning Model  
+- `vectorizer.pkl` → TF-IDF Vectorizer  
+
+---
+
+### 🛠️ 9. Troubleshooting
+
+#### ❌ Error: `news.csv not found`
+
+✔️ Make sure the CSV file is in the same directory as your script  
+
+---
+
+#### ❌ Missing modules
+
+✔️ Install dependencies again:
+
+```bash
+pip install -r requirements.txt
+```
