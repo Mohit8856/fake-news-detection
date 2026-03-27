@@ -137,4 +137,54 @@ main()             → Runs system
 
 ##  Flowchart 
 
+flowchart TD
+
+A[Start] --> B[Import Libraries]
+
+B --> C[Load Dataset news.csv]
+C -->|Error| D[Print Error & Exit]
+C -->|Success| E[Display Data Info]
+
+E --> F[Handle Missing Values]
+F --> G[Combine Title + Text]
+
+G --> H[Clean Text Function]
+H --> I[Apply Cleaning]
+
+I --> J[Create Dummy Labels]
+J --> K[Visualize Label Distribution]
+
+K --> L[Add Text Length Feature]
+L --> M[Visualize Text Length]
+
+M --> N[Split Dataset Train/Test]
+
+N --> O[Apply TF-IDF Vectorization]
+
+O --> P[Train Logistic Regression]
+P --> Q[Evaluate LR Model]
+
+O --> R[Train Naive Bayes]
+R --> S[Evaluate NB Model]
+
+Q --> T[Compare Models]
+S --> T
+
+T --> U[Select Best Model]
+
+U --> V[Create Prediction Function]
+
+V --> W[Sample Prediction]
+
+W --> X[User Input Loop]
+X -->|Exit| Y[Save Model]
+X -->|Continue| V
+
+Y --> Z[Save Model & Vectorizer]
+
+Z --> AA[Reload Model for Verification]
+AA --> AB[Test Prediction]
+
+AB --> AC[End]
+
 
