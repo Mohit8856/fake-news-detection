@@ -293,18 +293,63 @@ Result: REAL ✅
 
 Type `exit` to stop the program.
 
-Then run:
+
+### ⚙️ Configuration
+
+Before running the project, ensure the following configurations:
+
+- The dataset file **`news.csv`** is placed in the root directory.
+- The CSV file must contain the following columns:
+  - `title` → News headline  
+  - `text` → News content  
+
+- You can modify the script if needed:
+  - Change dataset path:
+    ```python
+    data = pd.read_csv("news.csv")
+    ```
+  - Adjust model parameters:
+    - Logistic Regression (`max_iter=1000`)
+    - TF-IDF (`max_df=0.7`, `stop_words='english'`)
+
+- Ensure all dependencies are installed (see Installation section).
+
+---
+
+### ▶️ Execution
+
+Run the Python script to start the project:
 
 ```bash
-pip install -r requirements.txt
+python your_script_name.py
 ```
 
-### 💾 8. Output Files
+#### 🔄 What happens during execution:
 
-After running the project, the following files will be generated:
+1. Dataset is loaded and cleaned  
+2. Text preprocessing is applied  
+3. Dummy labels are generated  
+4. Data is split into training and testing sets  
+5. TF-IDF vectorization is performed  
+6. Models are trained:
+   - Logistic Regression  
+   - Naive Bayes  
+7. Models are evaluated and compared  
+8. Best model is selected  
+9. User can input custom news for prediction  
+10. Model and vectorizer are saved (`model.pkl`, `vectorizer.pkl`)  
 
-- `model.pkl` → Trained Machine Learning Model  
-- `vectorizer.pkl` → TF-IDF Vectorizer  
+---
+
+#### 💡 Example Run:
+
+```text
+Enter news: Government launches new scheme
+Result: REAL ✅
+```
+
+Type `exit` to stop execution.
+
 
 ---
 
