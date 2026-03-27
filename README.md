@@ -137,6 +137,9 @@ main()             → Runs system
 
 ##  Flowchart 
 
+## 📊 Project Flowchart
+
+```mermaid
 flowchart TD
 
 A[Start] --> B[Import Libraries]
@@ -186,5 +189,4 @@ Z --> AA[Reload Model for Verification]
 AA --> AB[Test Prediction]
 
 AB --> AC[End]
-
-
+```
