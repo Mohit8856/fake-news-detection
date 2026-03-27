@@ -251,6 +251,48 @@ matplotlib
 scikit-learn
 ```
 
+### 📂 5. Dataset Setup (CSV File)
+
+This project uses a **CSV dataset**.
+
+- Place your dataset file named **`news.csv`** in the project root directory.
+
+#### 📊 Required Columns:
+- `title` → News headline  
+- `text` → News content  
+
+#### Example format:
+
+```csv
+title,text
+Breaking News,This is the news content...
+Another News,More content here...
+```
+
+---
+
+### ▶️ 6. Run the Project
+
+```bash
+python your_script_name.py
+```
+
+---
+
+### 💬 7. Usage
+
+- The model will train automatically.  
+- You can input your own news text for prediction.  
+
+#### Example:
+
+```text
+Enter news: Government launches new scheme
+Result: REAL ✅
+```
+
+Type `exit` to stop the program.
+
 Then run:
 
 ```bash
