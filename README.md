@@ -212,7 +212,7 @@ pip --version
 ### 📥 2. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fake-news-detection.git
+git clone https://github.com/mohit25bai11342-gif/fake-news-detection.git
 cd fake-news-detection
 ```
 
