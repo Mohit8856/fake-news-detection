@@ -190,3 +190,69 @@ AA --> AB[Test Prediction]
 
 AB --> AC[End]
 ```
+## ⚙️ Setup & Installation Guide
+
+Follow these steps to set up and run the **Fake News Detection System** on your local machine.
+
+---
+
+### 📌 1. Prerequisites
+
+Make sure you have the following installed:
+
+- Python 3.x  
+- pip (Python package manager)  
+
+Check installation:
+
+```bash
+python --version
+pip --version
+
+### 📥 2. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/fake-news-detection.git
+cd fake-news-detection
+```
+
+---
+
+### 🧪 3. Create Virtual Environment (Recommended)
+
+#### ▶️ Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### ▶️ Mac/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 📦 4. Install Dependencies
+
+Install required libraries:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+```
+
+#### OR create a `requirements.txt` file:
+
+```txt
+pandas
+numpy
+matplotlib
+scikit-learn
+```
+
+Then run:
+
+```bash
+pip install -r requirements.txt
+```
