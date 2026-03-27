@@ -321,7 +321,7 @@ Before running the project, ensure the following configurations:
 Run the Python script to start the project:
 
 ```bash
-python your_script_name.py
+python main.py
 ```
 
 #### 🔄 What happens during execution:
