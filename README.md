@@ -265,8 +265,7 @@ This project uses a **CSV dataset**.
 
 ```csv
 title,text
-Breaking News,This is the news content...
-Another News,More content here...
+
 ```
 
 ---
