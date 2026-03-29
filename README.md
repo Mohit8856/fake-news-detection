@@ -362,20 +362,22 @@ Heavy rainfall causes flooding in several parts of the city
 ---
 
 
-### ✅ Real News Examples
+## 🧪 Real News Test Dataset
 
-1. U.S. economy shows steady improvement in latest quarterly report  
-2. Government officials discuss immigration policy reforms in Washington  
-3. Federal court rejects appeal on major financial regulation case  
-4. Senate approves budget proposal after long debate  
-5. White House announces new healthcare policy initiative  
-6. U.S. lawmakers pass new bill to improve economic growth  
-7. Treasury department releases updated financial guidelines  
-8. Congress prepares for discussions on national security policies  
-9. New tax reform bill introduced in the Senate  
-10. Officials confirm progress in international trade agreements
+```text
 
-
+- U.S. economy shows steady improvement in latest quarterly report
+- Government officials discuss immigration policy reforms in Washington
+- Federal court rejects appeal on major financial regulation case
+- Senate approves budget proposal after long debate
+- White House announces new healthcare policy initiative
+- U.S. lawmakers pass new bill to improve economic growth
+- Treasury department releases updated financial guidelines
+- Congress prepares for discussions on national security policies
+- New tax reform bill introduced in the Senate
+- Officials confirm progress in international trade agreements
+```
+  
 #### ❌ Fake-like / Sensational News (for testing model behavior)
 ```text
 Shocking! Aliens have landed on Earth and taken control of major cities
