@@ -85,7 +85,7 @@ This system solves the problem using machine learning.
 
 ### Functional Requirements
 
-- Load dataset (`news.csv`)  
+- Load dataset (`Fake.csv.zip  and True.csv.zip` )  
 - Clean and preprocess text  
 - Convert text using TF-IDF  
 - Train ML models  
@@ -255,16 +255,18 @@ scikit-learn
 
 This project uses a **CSV dataset**.
 
-- Place your dataset file named **`news.csv`** in the project root directory.
+- Place your dataset file named **`Fake.csv.zip  and True.csv.zip`** in the project root directory.
 
 #### 📊 Required Columns:
 - `title` → News headline  
-- `text` → News content  
+- `text` → News content
+- `subject` → News headline 
+- `date` → News headline  
 
 #### Example format:
 
 ```csv
-title,text
+title,text,subject,date
 
 ```
 
@@ -297,15 +299,18 @@ Type `exit` to stop the program.
 
 Before running the project, ensure the following configurations:
 
-- The dataset file **`news.csv`** is placed in the root directory.
+- The dataset file **`Fake.csv.zip  and True.csv.zip`** is placed in the root directory.
 - The CSV file must contain the following columns:
   - `title` → News headline  
-  - `text` → News content  
+  - `text` → News content
+  - `subject` → News headline 
+  - `date` → News headline    
 
 - You can modify the script if needed:
   - Change dataset path:
     ```python
-    data = pd.read_csv("news.csv")
+    data = pd.read_csv(" Fake.csv.zip ")
+     data = pd.read_csv("True.csv.zip")
     ```
   - Adjust model parameters:
     - Logistic Regression (`max_iter=1000`)
