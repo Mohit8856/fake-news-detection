@@ -144,7 +144,7 @@ flowchart TD
 
 A[Start] --> B[Import Libraries]
 
-B --> C[Load Dataset news.csv]
+B --> C[Load Dataset Fake.csv.zip  and True.csv.zip]
 C -->|Error| D[Print Error & Exit]
 C -->|Success| E[Display Data Info]
 
@@ -260,8 +260,8 @@ This project uses a **CSV dataset**.
 #### 📊 Required Columns:
 - `title` → News headline  
 - `text` → News content
-- `subject` → News headline 
-- `date` → News headline  
+- `subject` 
+- `date`  
 
 #### Example format:
 
@@ -303,8 +303,8 @@ Before running the project, ensure the following configurations:
 - The CSV file must contain the following columns:
   - `title` → News headline  
   - `text` → News content
-  - `subject` → News headline 
-  - `date` → News headline    
+  - `subject` 
+  - `date`     
 
 - You can modify the script if needed:
   - Change dataset path:
